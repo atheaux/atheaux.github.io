@@ -131,9 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3498db;
-}
+
 .navbar .getstarted, .navbar .getstarted:focus {
   background: #3498db;
   padding: 8px 25px;
@@ -141,10 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   color: #fff;
 }
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #4aa3df;
-}
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -170,9 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3498db;
-}
+
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
@@ -256,9 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   color: #222222;
 }
-.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #335ea2;
-}
+
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
 }
@@ -282,9 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown ul a i {
   font-size: 12px;
 }
-.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3498db;
-}
+
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
@@ -322,10 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #3498db;
   border: 2px solid #3498db;
 }
-#hero .btn-get-started:hover {
-  background: #3498db;
-  color: #fff;
-}
+
 
 #hero span{
   color: #335ea2;
@@ -421,7 +407,7 @@ section {
   content: "";
   width: 50px;
   height: 2px;
-  background: #3498db;
+  background: #335ea2;
   display: inline-block;
 }
 .section-title h2::before {
@@ -454,10 +440,7 @@ section {
   display: inline-block;
   padding: 10px 0;
 }
-.clients img:hover {
-  filter: none;
-  transform: scale(1.1);
-}
+
 @media (max-width: 768px) {
   .clients img {
     width: 40%;
@@ -514,11 +497,7 @@ section {
   margin-top: 6px;
   border: 2px solid #3498db;
 }
-.about .content .btn-learn-more:hover {
-  background: #3498db;
-  color: #fff;
-  text-decoration: none;
-}
+
 
 /*--------------------------------------------------------------
 # Counts
@@ -615,7 +594,7 @@ section {
   z-index: -1;
 }
 .services .icon-box:hover::before {
-  background: #3498db;
+  background: #335ea2;
   right: 0;
   top: 0;
   width: 100%;
@@ -630,7 +609,7 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #3498db;
+  background: #335ea2;
   transition: all 0.3s ease-in-out;
 }
 .services .icon i {
@@ -1204,7 +1183,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color: #335ea2;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1213,10 +1192,10 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #3498db;
+  border: 1px solid #335ea2;
 }
 .contact .social-links a:hover {
-  background: #3498db;
+  background: #335ea2;
   color: #fff;
 }
 .contact .info {
